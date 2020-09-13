@@ -1,4 +1,5 @@
 # RCNN Implementation with Tensorflow 2.3.
+![image](https://github.com/ammarchalifah/VideoRCNN/blob/master/video.JPG)
 My first task in my first internship was to create an RCNN model that I trained myself. I took more than two weeks during those days.
 Now, after creating this notebook and model for **Bisa AI Webinar**, I thought it would be really nice if I share this and help
 people that desperately need this knowledge. So, here it is: RCNN implementation with TensorFlow 2.3. and Video Processing with RCNN!
