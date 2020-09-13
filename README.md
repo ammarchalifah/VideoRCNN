@@ -1,6 +1,8 @@
 # RCNN Implementation with Tensorflow 2.3.
 ![image](https://github.com/ammarchalifah/VideoRCNN/blob/master/video.JPG)<br>
-My first task in my first internship was to create an RCNN model that I trained myself. I took more than two weeks during those days.
+My first task in my first internship was to create an RCNN model that I trained myself. It took more than two weeks during those days.
+I tried to find an easy to follow tutorial with up-to-date approach, but I couldn't. After those hardships, finally I'm able to to that
+task in significantly shorter time. I was asked to create this very same task for webinar materials from the company I'm working for.
 Now, after creating this notebook and model for **Bisa AI Webinar**, I thought it would be really nice if I share this and help
 people that desperately need this knowledge. So, here it is: RCNN implementation with TensorFlow 2.3. and Video Processing with RCNN!
 
@@ -37,7 +39,7 @@ The directory structure of this project should look like this:
         ├── SegmentationClass
         └── SegmentationObject
 ```
-Important note: You have to create the checkpoints and images folder manually (or insert some line of codes in the Colab for that purpose). The VOCdevkit folder
+**Important note:** You have to create the checkpoints and images folder manually (or insert some line of codes in the Colab for that purpose). The VOCdevkit folder
 will be created automatically after you download and untar the dataset.
 ## Limitations
 - No Non-max suppression. Single object may have multiple bounding boxes.
